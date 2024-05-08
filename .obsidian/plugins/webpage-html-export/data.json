@@ -1,16 +1,17 @@
 {
-  "settingsVersion": "1.8.01",
+  "settingsVersion": "1.8.1-2b",
   "makeOfflineCompatible": false,
   "inlineAssets": false,
-  "includePluginCSS": "",
+  "includePluginCSS": [],
   "includeSvelteCSS": true,
-  "titleProperty": "Analisi Matematica 1",
+  "titleProperty": "title",
   "customHeadContentPath": "",
   "faviconPath": "",
   "documentWidth": "40em",
   "sidebarWidth": "20em",
   "minOutlineCollapse": 2,
   "startOutlineCollapsed": false,
+  "relativeOutlineLinks": false,
   "allowFoldingHeadings": true,
   "allowFoldingLists": true,
   "allowResizingSidebars": true,
@@ -23,14 +24,14 @@
   "addOutline": true,
   "addFileNav": true,
   "addSearchBar": true,
-  "addGraphView": true,
+  "addGraphView": false,
   "addTitle": true,
   "addRSSFeed": true,
   "siteURL": "https://andrea-bonari.github.io/analisi-matematica-1/",
-  "authorName": "Spartacus04",
-  "vaultTitle": "MAT-05",
+  "authorName": "Andrea Bonari",
+  "vaultTitle": "Analisi Matematica 1",
   "exportPreset": "website",
-  "openAfterExport": true,
+  "openAfterExport": false,
   "graphAttractionForce": 1,
   "graphLinkLength": 10,
   "graphRepulsionForce": 150,
@@ -38,25 +39,22 @@
   "graphEdgePruning": 100,
   "graphMinNodeSize": 3,
   "graphMaxNodeSize": 7,
-  "showDefaultTreeIcons": true,
+  "showDefaultTreeIcons": false,
   "emojiStyle": "Native",
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
   "exportPath": "/home/andrea/polimi/export",
   "filesToExport": [
-    [
-      "Calcolo differenziale",
-      "Dimostrazioni",
-      "Funzioni di variabili reali",
-      "Grafici e funzioni",
-      "Insiemi",
-      "Numeri complessi",
-      "numeri reali",
-      "Strumenti matematici utili",
-      "Successioni",
-      "index.md",
-      "Introduzione al corso.md"
-    ]
+    []
+  ],
+  "filePickerBlacklist": [
+    "(^|\\/)node_modules\\/",
+    "(^|\\/)dist\\/",
+    "(^|\\/)dist-ssr\\/",
+    "(^|\\/)\\.vscode\\/"
+  ],
+  "filePickerWhitelist": [
+    "\\.\\w+$"
   ]
 }

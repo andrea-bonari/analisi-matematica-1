@@ -22,7 +22,28 @@
   "showShortcuts": true,
   "markdownOnly": true,
   "unresolvedLinks": false,
-  "recentFilesStore": [],
+  "recentFilesStore": [
+    {
+      "filepath": "Numeri complessi/Trasformazioni geometriche nel piano di Gauss.md",
+      "timestamp": 1715177800135
+    },
+    {
+      "filepath": "Numeri complessi/Teorema fondamentale dell'algebra.md",
+      "timestamp": 1715177799905
+    },
+    {
+      "filepath": "Numeri complessi/Operazioni e proprietà nel campo complesso.md",
+      "timestamp": 1715177799695
+    },
+    {
+      "filepath": "Numeri complessi/Forma trigonometrica.md",
+      "timestamp": 1715177799447
+    },
+    {
+      "filepath": "Numeri complessi/Forma esponenziale.md",
+      "timestamp": 1715177799131
+    }
+  ],
   "starredFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,
