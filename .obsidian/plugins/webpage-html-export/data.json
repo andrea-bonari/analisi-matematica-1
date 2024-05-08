@@ -46,7 +46,19 @@
   "defaultMediaIcon": "lucide//file-image",
   "exportPath": "/home/andrea/polimi/export",
   "filesToExport": [
-    []
+    [
+      "Calcolo differenziale",
+      "Dimostrazioni",
+      "Funzioni di variabili reali",
+      "Grafici e funzioni",
+      "Insiemi",
+      "Numeri complessi",
+      "numeri reali",
+      "Strumenti matematici utili",
+      "Successioni",
+      "index.md",
+      "Introduzione al corso.md"
+    ]
   ],
   "filePickerBlacklist": [
     "(^|\\/)node_modules\\/",
