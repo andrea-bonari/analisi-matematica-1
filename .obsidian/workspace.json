@@ -146,6 +146,14 @@
   "lastOpenFiles": [
     "Calcolo differenziale/Teoremi per lo studio di funzioni.md",
     "Calcolo differenziale/Definizione e teoremi.md",
+    "Grafici e funzioni/Definizione di grafico.md",
+    "Funzioni di variabili reali/Teoremi delle funzioni continue.md",
+    "Funzioni di variabili reali/Proprietà dei limiti.md",
+    "Funzioni di variabili reali/Definizioni limite e continuità.md",
+    "Funzioni di variabili reali/Asintotici.md",
+    "Funzioni di variabili reali/Asintoti.md",
+    "Dimostrazioni/Principio di induzione.md",
+    "Dimostrazioni/Dimostrazioni per induzione.md",
     "Introduzione al corso.md",
     "Successioni/Successioni.md",
     "Strumenti matematici utili/Notazioni e scritture.md",
@@ -162,14 +170,9 @@
     "Insiemi/Simbologia.md",
     "Insiemi/Operazioni tra insiemi.md",
     "Insiemi/Intervalli di insiemi in Q.md",
-    "Insiemi/Insiemi numerici.md",
-    "Insiemi/Insieme limitato in Q.md",
-    "Insiemi/Cardinalità di un insieme.md",
-    "Grafici e funzioni/Tipologie di funzione.md",
-    "Grafici e funzioni/Funzioni associate al grafico.md",
-    "Grafici e funzioni/Funzione modulo.md",
-    "Grafici e funzioni/Dominio.md",
-    "Grafici e funzioni/Definizione di grafico.md",
+    "numeri reali",
+    "Successioni",
+    "Strumenti matematici utili",
     "Numeri complessi",
     "Insiemi",
     "Grafici e funzioni",
@@ -186,9 +189,6 @@
     "Data/rM drawing 2023-10-03-15.04.34.png",
     "Data/rM drawing 2023-09-28-10.12.45.png",
     "Data/rM drawing 2023-09-28-09.18.33.png",
-    "Data/Recording 20230919153751.webm",
-    "Data/Recording 20230919151959.webm",
-    "Data",
-    "numeri reali/Immersione di Q in R.html"
+    "Data/Recording 20230919153751.webm"
   ]
 }
