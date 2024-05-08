@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3dded5e664ad6a66",
+        "id": "b53168389dc3807a",
         "type": "tabs",
         "children": [
           {
-            "id": "19cb9c5b3ce16be3",
+            "id": "88b176d1274a5f56",
             "type": "leaf",
             "state": {
-              "type": "home-tab-view",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Introduzione al corso.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -61,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,23 +86,13 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Introduzione al corso.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "a84cd80e86d2bd36",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -118,10 +113,29 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "Introduzione al corso.md"
+              }
+            }
+          },
+          {
+            "id": "38578a97da9f7ae7",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "3764f2a3d80fefd6",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -142,37 +156,38 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "19cb9c5b3ce16be3",
+  "active": "485ff16c2d503173",
   "lastOpenFiles": [
-    "Calcolo differenziale/Teoremi per lo studio di funzioni.md",
-    "Calcolo differenziale/Definizione e teoremi.md",
-    "Grafici e funzioni/Definizione di grafico.md",
-    "Funzioni di variabili reali/Teoremi delle funzioni continue.md",
-    "Funzioni di variabili reali/Proprietà dei limiti.md",
-    "Funzioni di variabili reali/Definizioni limite e continuità.md",
-    "Funzioni di variabili reali/Asintotici.md",
-    "Funzioni di variabili reali/Asintoti.md",
-    "Dimostrazioni/Principio di induzione.md",
-    "Dimostrazioni/Dimostrazioni per induzione.md",
+    "index.md",
     "Introduzione al corso.md",
-    "Successioni/Successioni.md",
-    "Strumenti matematici utili/Notazioni e scritture.md",
+    "Data/Pasted image 20240508175406.png",
+    "Calcolo differenziale/Teorema di Taylor.md",
+    "Calcolo differenziale/Funzione esponenziale.md",
+    "Calcolo differenziale/Teoremi per lo studio di funzioni.md",
+    "Insiemi/Simbologia.md",
+    "Funzioni di variabili reali/Asintoti.md",
+    "Funzioni di variabili reali/Definizioni limite e continuità.md",
+    "Funzioni di variabili reali/Proprietà dei limiti.md",
+    "Funzioni di variabili reali/Teoremi delle funzioni continue.md",
+    "Grafici e funzioni/Dominio.md",
+    "Insiemi/Operazioni tra insiemi.md",
+    "Insiemi/Cardinalità di un insieme.md",
+    "Insiemi/Insieme limitato in Q.md",
+    "Insiemi/Insiemi numerici.md",
+    "smart-chats/UNTITLED CHAT 2024-05-08 15 23 27.md",
+    "smart-chats",
     "numeri reali/Immersione di Q in R.md",
-    "numeri reali/Costruzione dell'insieme dei numeri reali.md",
     "numeri reali/Completezza dei numeri reali.md",
+    "numeri reali/Costruzione dell'insieme dei numeri reali.md",
+    "numeri reali",
+    "Successioni/Successioni.md",
+    "Successioni",
+    "Strumenti matematici utili/Notazioni e scritture.md",
+    "Strumenti matematici utili/Metodi risolutivi importanti.md",
+    "Strumenti matematici utili",
     "Numeri complessi/Trasformazioni geometriche nel piano di Gauss.md",
     "Numeri complessi/Teorema fondamentale dell'algebra.md",
     "Numeri complessi/Operazioni e proprietà nel campo complesso.md",
-    "Numeri complessi/Forma trigonometrica.md",
-    "Numeri complessi/Forma esponenziale.md",
-    "Numeri complessi/Forma algebrica.md",
-    "Numeri complessi/Definizione del campo complesso.md",
-    "Insiemi/Simbologia.md",
-    "Insiemi/Operazioni tra insiemi.md",
-    "Insiemi/Intervalli di insiemi in Q.md",
-    "numeri reali",
-    "Successioni",
-    "Strumenti matematici utili",
     "Numeri complessi",
     "Insiemi",
     "Grafici e funzioni",
@@ -187,8 +202,6 @@
     "Data/rM drawing 2023-10-03-16.42.04.png",
     "Data/rM drawing 2023-10-03-16.09.05.png",
     "Data/rM drawing 2023-10-03-15.04.34.png",
-    "Data/rM drawing 2023-09-28-10.12.45.png",
-    "Data/rM drawing 2023-09-28-09.18.33.png",
-    "Data/Recording 20230919153751.webm"
+    "Data/rM drawing 2023-09-28-10.12.45.png"
   ]
 }
