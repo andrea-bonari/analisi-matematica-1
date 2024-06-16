@@ -7,15 +7,11 @@
 >
 
 >[!note] Teorema fondamentale dell'algebra
->L'equazione $P(z)=0$ ha $n$ soluzioni $w_{1},w_{2},\cdots,w_{n}$ a cui corrispondono gli indici $m_{1},m_{2},\cdots,m_{n}\in\mathbb{N}\setminus\{0\}$ tali che $m_{1}+m_{2}+\cdots+m_{n}=n+\text{gr}(P)$, infatti: $$P(z)=(z-w_{1})^{m1}\cdot(z-w_{2})^{m2}\cdot\cdots\cdot (z-w_{n})^{mn}$$
+>L'equazione $P(z)=0$ ha $n$ soluzioni $w_{1},w_{2},\cdots,w_{n}$ a cui corrispondono gli indici $m_{1},m_{2},\cdots,m_{n}\in\mathbb{N}\smallsetminus\{0\}$ tali che $m_{1}+m_{2}+\cdots+m_{n}=n+\text{gr}(P)$, infatti: $$P(z)=(z-w_{1})^{m1}\cdot(z-w_{2})^{m2}\cdot\cdots\cdot (z-w_{n})^{mn}$$
 >Siccome molti polinomi non si azzerano in $\mathbb{R}$ il teorema fondamentale dell'algebra vale solo in $\mathbb{C}$.
 
 >[!note] Teorema di completezza del campo complesso
 >Un'equazione nel campo complesso ha:
 >- sempre almeno una radice per il teorema fondamentale dell'algebra.
 >- $n$ radici per la seconda legge di De Moivre.
-
-
-
-
 

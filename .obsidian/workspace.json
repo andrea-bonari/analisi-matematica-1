@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b53168389dc3807a",
+        "id": "570785d5903ea8b9",
         "type": "tabs",
         "children": [
           {
-            "id": "88b176d1274a5f56",
+            "id": "d21f66804186310c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduzione al corso.md",
+                "file": "Serie numeriche/Teoremi delle serie.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "confronto asintotico",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 243.5
   },
   "right": {
     "id": "32cac140770915f2",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduzione al corso.md",
+                "file": "Serie numeriche/Teoremi delle serie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduzione al corso.md"
+                "file": "Serie numeriche/Teoremi delle serie.md"
               }
             }
           },
@@ -133,9 +132,29 @@
               "type": "smart-connections-chat-view",
               "state": {}
             }
+          },
+          {
+            "id": "f549c1fbc5c6691d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Serie numeriche/Teoremi delle serie.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bf16d3b09370fe42",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -144,64 +163,65 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": false,
+      "webpage-html-export:Export Vault to HTML": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "485ff16c2d503173",
+  "active": "d21f66804186310c",
   "lastOpenFiles": [
-    "index.md",
-    "Introduzione al corso.md",
-    "Data/Pasted image 20240508175406.png",
+    "Dimost.md",
+    "Serie numeriche/Teoremi delle serie.md",
+    "Serie numeriche/Serie numeriche.md",
+    "Dimostrazioni/Dimostrazioni per induzione.md",
+    "Calcolo integrale/Integrali su intervalli particolari.md",
+    "Calcolo integrale/Funzione integrale.md",
+    "Calcolo integrale/Teoremi relativi agli integrali.md",
+    "Calcolo differenziale/Teoremi per lo studio di funzioni.md",
     "Calcolo differenziale/Teorema di Taylor.md",
     "Calcolo differenziale/Funzione esponenziale.md",
-    "Calcolo differenziale/Teoremi per lo studio di funzioni.md",
-    "Insiemi/Simbologia.md",
-    "Funzioni di variabili reali/Asintoti.md",
-    "Funzioni di variabili reali/Definizioni limite e continuità.md",
-    "Funzioni di variabili reali/Proprietà dei limiti.md",
-    "Funzioni di variabili reali/Teoremi delle funzioni continue.md",
-    "Grafici e funzioni/Dominio.md",
-    "Insiemi/Operazioni tra insiemi.md",
-    "Insiemi/Cardinalità di un insieme.md",
-    "Insiemi/Insieme limitato in Q.md",
-    "Insiemi/Insiemi numerici.md",
-    "smart-chats/UNTITLED CHAT 2024-05-08 15 23 27.md",
-    "smart-chats",
-    "numeri reali/Immersione di Q in R.md",
-    "numeri reali/Completezza dei numeri reali.md",
-    "numeri reali/Costruzione dell'insieme dei numeri reali.md",
-    "numeri reali",
+    "Calcolo differenziale/Definizione e teoremi.md",
     "Successioni/Successioni.md",
+    "Funzioni di variabili reali/Teoremi delle funzioni continue.md",
+    "numeri reali/Completezza dei numeri reali.md",
+    "index.md",
+    "Serie numeriche/Serie di Taylor.md",
+    "Numeri complessi/Forma trigonometrica.md",
+    "Introduzione al corso.md",
+    "Serie numeriche/Untitled.md",
+    "Calcolo integrale/Definizione Integrale.md",
+    "Funzioni di variabili reali/Asintotici.md",
+    "Funzioni di variabili reali/Proprietà dei limiti.md",
+    "Numeri complessi/Forma algebrica.md",
+    "Grafici e funzioni/Dominio.md",
+    "Grafici e funzioni/Tipologie di funzione.md",
+    "Grafici e funzioni/Funzioni associate al grafico.md",
+    "Untitled",
+    "Serie numeriche",
+    "Data/Pasted image 20240520105750.png",
+    "Data/Pasted image 20240514162130.png",
+    "Data/Pasted image 20240514162129.png",
+    "Calcolo integrale",
+    "Data/Pasted image 20240508175406.png",
+    "smart-chats",
+    "numeri reali",
     "Successioni",
-    "Strumenti matematici utili/Notazioni e scritture.md",
-    "Strumenti matematici utili/Metodi risolutivi importanti.md",
     "Strumenti matematici utili",
-    "Numeri complessi/Trasformazioni geometriche nel piano di Gauss.md",
-    "Numeri complessi/Teorema fondamentale dell'algebra.md",
-    "Numeri complessi/Operazioni e proprietà nel campo complesso.md",
     "Numeri complessi",
     "Insiemi",
     "Grafici e funzioni",
-    "Funzioni di variabili reali",
-    "Esercitazioni",
-    "Dimostrazioni",
     "Data/rM drawing 2023-10-18-08.39.36.png",
     "Data/rM drawing 2023-10-17-15.48.15.png",
     "Data/rM drawing 2023-10-04-10.02.46.png",
     "Data/rM drawing 2023-10-04-09.02.07.png",
     "Data/rM drawing 2023-10-03-16.52.06.png",
-    "Data/rM drawing 2023-10-03-16.42.04.png",
-    "Data/rM drawing 2023-10-03-16.09.05.png",
-    "Data/rM drawing 2023-10-03-15.04.34.png",
-    "Data/rM drawing 2023-09-28-10.12.45.png"
+    "Data/rM drawing 2023-10-03-16.42.04.png"
   ]
 }

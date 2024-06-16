@@ -10,7 +10,7 @@
 \sinh x&n\text{ pari}\\
 \cosh x&n\text{ dispari}
 \end{cases}\\
-&\cosh x= \frac{e^{x}+e^{-x}}{2}&&D\space\sinh x=\begin{cases}
+&\cosh x= \frac{e^{x}+e^{-x}}{2}&&D\space\cosh x=\begin{cases}
 \cosh x&n\text{ pari}\\
 \sinh x&n\text{ dispari}
 \end{cases}

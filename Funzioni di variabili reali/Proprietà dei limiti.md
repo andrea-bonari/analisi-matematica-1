@@ -1,5 +1,5 @@
 1. Unicità limite: $$\text{se }\exists\lim_{x\to x_{0}}f(x)=l\text{ allora è unico}$$
-2. Intorno: $$\text{se }\exists\lim_{x\to x_{0}}f(x)\in\mathbb{R}\Longrightarrow x\in((x_{0}-\delta(\varepsilon),x_{0}+\delta(\varepsilon))\cap D\setminus\set{x_{0}})$$
+2. Intorno: $$\text{se }\exists\lim_{x\to x_{0}}f(x)\in\mathbb{R}\Longrightarrow x\in((x_{0}-\delta(\varepsilon),x_{0}+\delta(\varepsilon))\cap D\smallsetminus\set{x_{0}})$$
 3. Somma: $$\lim_{x\to x_{0}}(f(x)+g(x))=\lim_{x\to x_{0}}f(x)+\lim_{x\to x_{0}}g(x)$$
 4. Prodotto: $$\lim_{x\to x_{0}}(f(x)\cdot g(x))=\lim_{x\to x_{0}}f(x)\cdot \lim_{x\to x_{0}}g(x)$$
 5. Quoziente: $$\lim_{x\to x_{0}} \frac{f(x)}{g(x)}= \frac{\lim_{x\to x_{0}} f(x)}{\lim_{x\to x_{0}} g(x)}$$

@@ -31,7 +31,7 @@
   "authorName": "Andrea Bonari",
   "vaultTitle": "Analisi Matematica 1",
   "exportPreset": "website",
-  "openAfterExport": false,
+  "openAfterExport": true,
   "graphAttractionForce": 1,
   "graphLinkLength": 10,
   "graphRepulsionForce": 150,
@@ -48,6 +48,7 @@
   "filesToExport": [
     [
       "Calcolo differenziale",
+      "Calcolo integrale",
       "Dimostrazioni",
       "Funzioni di variabili reali",
       "Grafici e funzioni",

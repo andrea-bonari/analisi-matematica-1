@@ -7,7 +7,3 @@
 P(n_{0})&\text{vera} \\
 P(n)\Longrightarrow P(n+1)&\text{vera}
 \end{cases}\Longrightarrow P(n) \text{ vera }\forall n\in\mathbb{N}$$
-
-
-
-

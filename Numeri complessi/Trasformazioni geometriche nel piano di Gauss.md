@@ -25,7 +25,7 @@ $$T(z):=z+z_{0}\qquad\forall z\in\mathbb{C}$$
 >Corrisponde alla simmetria rispetto all'asse $x$, ed è quindi il coniugato.
 
 >[!note] Trasformazione di Zhukovsky
->Considero $f: \mathbb{C}\setminus\{0\}\to\mathbb{C}$
+>Considero $f: \mathbb{C}\smallsetminus\{0\}\to\mathbb{C}$
 >$$f(z)= \frac{1}{2}\cdot \left(z+ \frac{1}{2}\right)$$
 >Questa funzione non altera l'angolo fra le curve ed è utile nello studio della dinamica dei fluidi.
 

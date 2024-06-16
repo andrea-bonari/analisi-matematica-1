@@ -12,7 +12,7 @@ x\neq x_{0}
 >[!note] Funzione continua
 >Se in più $x_{0}\in(D\cap D')\wedge l=f(x_{0})$ si dice che la funzione è continua nel punto $x_{0}$, in simboli:
 >$$\begin{align*}
-\forall\varepsilon>0,\exists\delta(\varepsilon)>0\quad &|\quad x\in(D\setminus\set{0})\cap(x_{0}-\delta(\varepsilon),x_{0}+\delta(\varepsilon))\\
+\forall\varepsilon>0,\exists\delta(\varepsilon)>0\quad &|\quad x\in(D\smallsetminus\set{0})\cap(x_{0}-\delta(\varepsilon),x_{0}+\delta(\varepsilon))\\
 &\Longrightarrow f(x)\in(l-\varepsilon,l+\varepsilon)
 \end{align*}$$
 

@@ -38,4 +38,10 @@ Analisi matematica 1 è un corso fondamentale di matematica che approfondisce lo
 	1. [[Teoremi per lo studio di funzioni]]
 	2. [[Funzione esponenziale]]
 	3. [[Teorema di Taylor]]
-12. 
+12. [[Definizione Integrale|Calcolo integrale]]
+	1. [[Teoremi relativi agli integrali]]
+	2. [[Integrali su intervalli particolari]]
+	3. [[Definizione Integrale]]
+13. [[Serie numeriche]]
+	1. [[Teoremi delle serie]]
+	2. [[Serie di Taylor]]

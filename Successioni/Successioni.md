@@ -62,4 +62,3 @@ a_{n}\geq b_{n} \\
 >Quindi se $n,m\geq N(\varepsilon)$ si ha: $$|a_{n}-a_{m}|=|(a_{n}-l)+(l-a_{m})|\leq|a_{n}-l|+|a_{m}-l|\leq\varepsilon+\varepsilon=2\varepsilon$$
 >
 >Di conseguenza il teorema di Cauchy è condizione necessaria affinché una successione converga verso un valore definito e limitato nell'insieme $\mathbb{Q}$, ma non nell'insieme $\mathbb{R}$.
-

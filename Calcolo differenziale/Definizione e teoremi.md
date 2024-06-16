@@ -28,6 +28,10 @@ f:(a,b)\to\mathbb{R}\quad,\quad x_{0}\in(a,b) \\
 f\text{ derivabile in }x_{0}
 \end{cases}\Longrightarrow f\text{ continua in }x_{0}$$
 
+>[!example] Dimostrazione
+>$$\begin{align*}
+\lim_{x\to x_{0}}\bigg(f(x)-f(x_{0})\bigg)&= \lim_{x\to x_{0}}\bigg(\frac{f(x)-f(x_{0})}{x-x_{0}} \bigg)\cdot (x-x_{0})= f'(x)\cdot 0=0
+\end{align*}$$
 ### Calcolo derivate con proprietà
 
 Considero $f:\mathbb{R}\to\mathbb{R}\quad,\quad f(x),x\in\mathbb{R}\quad,\quad f'(x),x_{0}\in\mathbb{R}$:

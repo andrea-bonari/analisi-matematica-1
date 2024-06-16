@@ -24,24 +24,20 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Introduzione al corso.md",
-      "timestamp": 1715185845259
+      "filepath": "Serie numeriche/Teoremi delle serie.md",
+      "timestamp": 1718559956440
     },
     {
-      "filepath": "index.md",
-      "timestamp": 1715185844708
+      "filepath": "Serie numeriche/Serie numeriche.md",
+      "timestamp": 1718559945514
     },
     {
-      "filepath": "Data/Pasted image 20240508175406.png",
-      "timestamp": 1715185832568
+      "filepath": "Dimostrazioni/Dimostrazioni per induzione.md",
+      "timestamp": 1718559942538
     },
     {
-      "filepath": "Calcolo differenziale/Teorema di Taylor.md",
-      "timestamp": 1715184048044
-    },
-    {
-      "filepath": "Calcolo differenziale/Funzione esponenziale.md",
-      "timestamp": 1715183335293
+      "filepath": "Calcolo integrale/Integrali su intervalli particolari.md",
+      "timestamp": 1718559940225
     }
   ],
   "starredFileStore": [],

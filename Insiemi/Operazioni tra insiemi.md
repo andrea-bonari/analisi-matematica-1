@@ -2,7 +2,7 @@
 >Unione: $A\cup B$
 >Intersezione (`and` logico): $A\cap B$
 >Disgiunzione (`or` logico): $A\vee B$
->Sottrazione: $(A\setminus B):=\set{\forall a\in A\quad|\quad a\notin B}$
+>Sottrazione: $(A\smallsetminus B):=\set{\forall a\in A\quad|\quad a\notin B}$
 >Complementare: $A\subseteq B\quad A^{C}:=\set{\forall b\in B\quad|\quad b\notin A}$
 >Prodotto cartesiano: $$A\times B:=\{(a,b): a\in A, b\in B\}$$
 >$$A\times A:= A^{2}$$
