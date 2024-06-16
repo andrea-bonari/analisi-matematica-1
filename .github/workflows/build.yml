@@ -15,15 +15,13 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          path: ./vault
 
       - name: Build page
         run: |
           set +e
           mkdir -p ./.output
 
-          docker run --rm -v ./vault:/vault -v ./.output:/output spartacus04/obsidian-webpage-export:latest >> ./.log.txt
+          docker run --rm -v .:/vault -v ./.output:/output spartacus04/obsidian-webpage-export:latest >> ./.log.txt
 
           cat ./.log.txt
 
