@@ -50,13 +50,4 @@
 >2. Condizione necessaria per la convergenza della serie $\lim_{n\to+\infty}a_{n}=0$
 >3. È definitivamente crescente $\set{a_{n}}^{\infty}_{n=0}$, cioè: $$\exists n_{0}\geq0\quad |\quad n\geq n_{0}\Longrightarrow a_{n}\geq a_{n+1}$$
 >
->Allora la serie $\sum\limits^{\infty}_{n=0}(-1)^{n}a_{n}$ converge semplicemente:
->$$\exists s:=\lim_{N\to+\infty}s_N=\sum\limits^{\infty}_{n=0}(-1)^{n}a_{n}\in\mathbb{R}$$
->Inoltre: 
->$$s_{2N}\geq s\geq s_{2N+1}\qquad N\geq0$$
->Con:
->- $\set{s_{2N}}^{\infty}_{N=0}$ decrescente
->- $\set{s_{2N+1}}^{\infty}_{N=0}$ crescente
->
->In più il resto si scrive: $$R_{N}:=\sum\limits^{\infty}_{n=N }(-1)^{n}a_{n}\text{ convergente }\quad \bigg|\quad  |R_{N}|\leq a_{n}\quad\forall N\geq0$$
-
+>Allora la serie $\sum\limits^{\infty}_{n=0}(-1)^{n}a_{n}$ converge semplicemente.

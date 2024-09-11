@@ -24,20 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Serie numeriche/Serie di Taylor.md",
+      "timestamp": 1725884797008
+    },
+    {
       "filepath": "Serie numeriche/Teoremi delle serie.md",
-      "timestamp": 1718559956440
+      "timestamp": 1725883746036
     },
     {
       "filepath": "Serie numeriche/Serie numeriche.md",
-      "timestamp": 1718559945514
+      "timestamp": 1725883745275
     },
     {
-      "filepath": "Dimostrazioni/Dimostrazioni per induzione.md",
-      "timestamp": 1718559942538
+      "filepath": "Calcolo integrale/Teoremi relativi agli integrali.md",
+      "timestamp": 1725883581812
     },
     {
       "filepath": "Calcolo integrale/Integrali su intervalli particolari.md",
-      "timestamp": 1718559940225
+      "timestamp": 1725883580260
     }
   ],
   "starredFileStore": [],

@@ -5,7 +5,7 @@
 >&=f(x_{0})+f'(x_{0})(x-x_{0})+ \frac{1}{2}f^{(2)}(x_{0})(x-x_{0})^{2}+\cdots+\frac{f^{(n)}(x_{0})}{n!}(x->x_{0})^{n}
 >\end{align*}$$
 >Allora esiste una funzione resto $R^{f}_{n,x_{0}}(x):(a,b)\to\mathbb{R}$di ordine $n$ in $x_{0}$ tale che: $$f(x)=T^{f}_{n,x_{0}}(x)+R^{f}_{n,x_{0}}(x)\qquad \forall x\in(a,b)$$
->Il resto è di infinitesimo di ordine maggiore di $n$ per $x\geq x_{0}$:
+>Il resto è di infinitesimo di ordine maggiore di $n$ per $x\to x_{0}$:
 >$$\lim_{x\to x_{0}}\frac{T^{f}_{n,x_{0}}(x)-R^{f}_{n,x_{0}}(x)}{(x-x_{0})^{n}}=0$$
 >Quindi:
 >$$R^{f}_{n,x_{0}}(x)=o((x-x_{0})^{n})\quad\text{per }
@@ -30,7 +30,7 @@
 
 ### Formula di Stirling
 >[!note]
->$$n!\sim\sqrt{2\pi\cdot n}\cdot\left(\frac{n}{e}\right)^{n}\quad\text{ con }n\to+\infty$$
+>$$n!\sim\sqrt{2\pi\cdot n}\left(\frac{n}{e}\right)^{n}\quad\text{ con }n\to+\infty$$
 
 ### Sviluppi di Mc Laurin
 $$\begin{align*}

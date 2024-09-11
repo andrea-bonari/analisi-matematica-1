@@ -36,7 +36,8 @@ $$\sin,\cos\in C(\mathbb{R})$$
 >In altre parole, $M:=f(x_{M})$ è il valore massimo e $m:=f(x_{m})$ è il valore minimo di $f$ su $[a,b].$
 
 >[!example] Dimostrazione
->Ci limiteremo a provare l'esistenza del massimo. Sia $M:=\sup\text{Im}(f)\in\mathbb{R}\cup\set{+\infty}$ l'estremo superiore dell'immagine della funzione. Per le proprietà dell'estremo superiore, esiste una successione $\set{y_{n}}\subset\text{Im}(f)$ tale che $\lim_{n}y_{n}=M$. Sia quindi $\set{x_{n}}\subset[a,b]$ una successione tale che $f(x_{n})=y_{n}$ per la quale evidentemente si ha $$\lim_{n}f(x_{n})=\lim_{n}y_{n}=M$$
+>Ci limiteremo a provare l'esistenza del massimo.
+>Sia $M:=\sup\text{Im}(f)\in\mathbb{R}\cup\set{+\infty}$ l'estremo superiore dell'immagine della funzione. Per le proprietà dell'estremo superiore, esiste una successione $\set{y_{n}}\subset\text{Im}(f)$ tale che $\lim_{n}y_{n}=M$. Sia quindi $\set{x_{n}}\subset[a,b]$ una successione tale che $f(x_{n})=y_{n}$ per la quale evidentemente si ha $$\lim_{n}f(x_{n})=\lim_{n}y_{n}=M$$
 >Se per un certo $n$ si ha $y_{n}=M$, allora $M\in\text{Im}(f)$ è un valore massimo per la funzione e $x_{n}\in[a,b]$ è il punto di massimo. Se invece $y_{n}\neq M$ per ogni $n$, allora la successione $\set{x_{n}}$ è un insieme limitato e infinito e, per il teorema di Bolzano-Weierstrass, ammette almeno un punto di accumulazione che denotiamo con $x_{M}\in[a,b]$. Esisterà quindi almeno una sotto-successione $\set{x_{n_{k}}}\subseteq\set{x_{n}}$ convergente a $x_{M}$. Poiché $f$ è continua$$M=\lim_{n\to\infty}y_{n}=\lim_{n\to\infty}f(x_{n})=\lim_{k\to\infty}f(x_{n_{k}})=f(x_{M})\in\mathbb{R}$$
 >Questo dimostra che $M:=\sup\text{Im}(f)\in\mathbb{R}$ è finito e che appartiene all'immagine $\text{Im}(f)$. $M$ è quindi un valore massimo di $\text{Im}(f)$, assunto da $f$ nel punto $x_{M}\in[a,b]$
 ### Teorema degli zeri

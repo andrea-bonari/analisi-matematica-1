@@ -27,7 +27,7 @@ Se un insieme non è limitato allora non esistono maggioranti o minoranti, e non
 >[!example] Dimostrazione
 >Poiché $A$ è superiormente limitato, esiste $b_{0}\in\mathbb{R}$ maggiorante di $A$: $$x\in A\Longrightarrow x\leq b_{0}$$
 >Sia $a_{0}\in A$ un elemento fissato di $A$ di modo che $$[a_{0},b_{0}]\cap A\neq\emptyset$$Sia $c:=\frac{a_{0}+b_{0}}{2}$ punto medio di $[a_{0},b_{0}]$ e consideriamo i due sub-intervalli $$[a_{0},c]\text{ e } [c,b_{0}]$$
->Evidentemente in almeno uno dei due sub-intervalli vi sono elementi di $A$. Ne scegliamo uno dei due, denotandolo con $[a_{1},b_{2}]$, optando per quello di destra se entrambe le meta contengono elementi di $A$, evidentemente abbiamo che $$[a_{1},b_{1}]\cap A\neq0$$ E che $b_{1}$ è maggiorante di $A$.
+>Evidentemente in almeno uno dei due sub-intervalli vi sono elementi di $A$. Ne scegliamo uno dei due, denotandolo con $[a_{1},b_{1}]$, optando per quello di destra se entrambe le meta contengono elementi di $A$, evidentemente abbiamo che $$[a_{1},b_{1}]\cap A\neq\emptyset$$ E che $b_{1}$ è maggiorante di $A$.
 >
 >Iterando questo processo (detto dicotomia) otteniamo una successione crescente di intervalli $$\cdots\subset[a_{n+1},b_{n+1}]\subset[a_{n},b_{n}]\subset[a_{n},b_{n}]\subset\cdots\subset[a_{1},b_{1}]\subset[a_{0},b_{0}]$$
 >Tali che $$\forall n\geq1 \qquad \forall x\in A\quad x\leq b_{n}\Longrightarrow\forall n\geq 1\quad[a_{n},b_{n}]\cap A\neq0$$
@@ -43,6 +43,7 @@ Se un insieme non è limitato allora non esistono maggioranti o minoranti, e non
 >L'insieme dei punti di accumulazione di $E\subseteq\mathbb{R}$ è detto insieme derivato di $E$ e si denota con $E'$.
 
 >[!example] Dimostrazione
+>Poiché $E$ è limitato, esiste un intervallo limitato $E\subseteq[a_{0},b_{0}]\subset\mathbb{R}$ che lo contiene.
 >Ripetiamo il processo di dicotomia per l'insieme $E$, e avremo che $$\forall n\geq1\qquad \text{\#}([a_{n},b_{n}]\cap E)=\infty$$
 >In questo modo si ha che la successione $\set{a_{n}}$ è crescente e superiormente limitata da $b_{0}$, mentre $\set{b_{n}}$ è decrescente e inferiormente limitata da $a_{0}$, $\lim_{n\to+\infty} b_{n}-a_{n}=\lim_{n\to+\infty} \frac{b_{0}-a_{0}}{2^{n}}=0$, e $\exists \bar{x}=\lim_{n\to+\infty}a_{n}=\lim_{n+\infty}b_{n}$.
 >Scegliendo $x_{n}\in[a_{n},b_{n}]\cap E$ con $x_{n}\neq \bar{x}$, otteniamo una successione $\set{x_{n}}\subseteq E\smallsetminus\set{\bar{x}}$ tale che $$a_{n}\leq x_{n}\leq b_{n}\qquad n\geq1$$
