@@ -8,15 +8,17 @@ $$f'(x)=\tan(\theta_{x})\in\mathbb{R}$$
 La retta tangente è esprimibile come:
 $$y-y_{0}=m(x-x_{0})\iff f(x)-f(x_{0})=f'(x_{0})\cdot(x-x_{0})$$
 
->[!tip]
+>[!tip] Lemma della funzione resto
 >Se $f:(a,b)\to\mathbb{R}$ è derivabile in $x_{0}\in(a,b)$, allora esiste $R:(a,b)\to\mathbb{R}$, detta funzione resto o errore, tale che:
 >$$f(x)=f(x_{0})+f'(x_{0})\cdot(x-x_{0})+R(x)\quad\forall x\in(a,b)$$
+>Dove:
 >$$\lim_{x\to x_{0}} \frac{R(x)}{x-x_{0}}=0$$
+>Cioè $R(x)$ è $\infty$-esimo di ordine maggiore di $1$ per $x\to x_{0}$.
 
 >[!example] Dimostrazione
 >Definiamo $R(x):= f(x)-[f(x_{0})+f'(x_{0})\cdot(x-x_{0})]$:
 >$$\begin{align*}
-\lim_{x\to x_{0}}\frac{f(x)}{x-x_{0}}&=\lim_{x\to x_{0}}\frac{f(x)-f(x_{0})-f'(x_{0})(x-x_{0})}{x-x_{0}}\\
+\lim_{x\to x_{0}}\frac{R(x)}{x-x_{0}}&=\lim_{x\to x_{0}}\frac{f(x)-f(x_{0})-f'(x_{0})(x-x_{0})}{x-x_{0}}\\
 &=\left(\lim_{x\to x_{0}}\frac{f(x)-f(x_{0})}{x-x_{0}}\right)-f'(x_{0})\\
 &=f'(x_{0})-f'(x_{0})=0
 \end{align*}$$

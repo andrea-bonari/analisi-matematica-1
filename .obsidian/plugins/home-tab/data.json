@@ -13,7 +13,7 @@
   "fontColorType": "default",
   "fontWeight": 600,
   "maxResults": 5,
-  "showStarredFiles": false,
+  "showbookmarkedFiles": true,
   "showRecentFiles": true,
   "maxRecentFiles": 5,
   "storeRecentFile": true,
@@ -24,30 +24,33 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Serie numeriche/Serie di Taylor.md",
-      "timestamp": 1725884797008
+      "filepath": "Dimostrazioni/Dimostrazioni per induzione.md",
+      "timestamp": 1731131729345
     },
     {
-      "filepath": "Serie numeriche/Teoremi delle serie.md",
-      "timestamp": 1725883746036
+      "filepath": "Strumenti matematici utili/Notazioni e scritture.md",
+      "timestamp": 1731131728972
     },
     {
-      "filepath": "Serie numeriche/Serie numeriche.md",
-      "timestamp": 1725883745275
+      "filepath": "Strumenti matematici utili/Metodi risolutivi importanti.md",
+      "timestamp": 1731131728834
     },
     {
-      "filepath": "Calcolo integrale/Teoremi relativi agli integrali.md",
-      "timestamp": 1725883581812
+      "filepath": "numeri reali/Immersione di Q in R.md",
+      "timestamp": 1731131728648
     },
     {
-      "filepath": "Calcolo integrale/Integrali su intervalli particolari.md",
-      "timestamp": 1725883580260
+      "filepath": "numeri reali/Costruzione dell'insieme dei numeri reali.md",
+      "timestamp": 1731131728167
     }
   ],
-  "starredFileStore": [],
+  "bookmarkedFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,
   "newTabOnStart": true,
   "closePreviousSessionTabs": true,
-  "omnisearch": false
+  "omnisearch": false,
+  "showOmnisearchExcerpt": true,
+  "showStarredFiles": false,
+  "starredFileStore": []
 }

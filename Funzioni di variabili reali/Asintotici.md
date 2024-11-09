@@ -17,7 +17,8 @@ Proprietà degli asintotici:
 &\ln(1+x)\sim x&\text{per }x\to0\\
 &e^{x}-1\sim x&\text{per }x\to0\\
 &\arcsin(x)\sim x&\text{per }x\to0\\
-&\arctan(x)\sim x&\text{per }x\to0
+&\arctan(x)\sim x&\text{per }x\to0\\
+&(1+x)^{\alpha}-1\sim a\cdot x&\text{per }x\to0
 \end{align*}$$
 
 ### o piccolo e gerarchia degli infiniti

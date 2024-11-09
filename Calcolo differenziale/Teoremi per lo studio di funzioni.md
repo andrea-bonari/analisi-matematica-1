@@ -6,16 +6,14 @@
 >Se $f:(a,b)\to\mathbb{R}$, i suoi punti estremi sono da cercarsi nell'insieme $A\cap B$, dove $A,B$ sono insiemi finiti:
 >$$A=\set{x\in(a,b)\space|\space\exists f'(x)=0}$$$$B=\set{x\in(a,b)\space|\space\nexists f'(x)}$$
 
->[!example] Dimostrazione
->Consideriamo il solo caso del massimo. 
->Sia $x_{M}\in(a,b)$ il massimo di $f$ nell'intervallo $(a,b)$ tale che per ogni punto nell'intervallo generico vale: $$f(x_{M})\geq f(x)$$
->Consideriamo il caso in cui $x>x_{M}$, si ha che $$\frac{f(x)-f(x_{M})}{x-x_{M}}\leq0\Longrightarrow\lim_{x\to x_{0}}\frac{f(x)-f(x_{M})}{x-x_{M}}=f'(x)\leq0$$
->Consideriamo, analogamente, il caso $x<x_{M}$:
->$$\frac{f(x)-f(x_{M})}{x-x_{M}}\geq0\Longrightarrow\lim_{x\to x_{0}}\frac{f(x)-f(x_{M})}{x-x_{M}}=f'(x)\geq0$$
->Dalle disequazioni ottenute si ha che: $$\begin{cases}
-f'(x)\leq0 \\
-f'(x)\geq0
-\end{cases}\quad\Longrightarrow\quad f'(x)=0\quad\text{ punto stazionario}$$
+>[!example]
+>Per semplicità supponiamo $x_{0}$ punto di massimo assoluto o globale: $$f(x)\leq f(x_{0})\qquad\forall x\in(a,b)$$
+>Se $x>x_{0}$ allora: $$\frac{f(x)-f(x_{0})}{x-x_{0}}\leq0\Longrightarrow \lim_{x\to x_{0}^{+}}\frac{f(x)-f(x_{0})}{x-x_{0}}=f'(x)\leq 0$$
+>Analogamente, se $x< x_{0}$ allora: $$\frac{f(x)-f(x_{0})}{x-x_{0}}\geq0\Longrightarrow\lim_{x\to x_{0}^{-}}\frac{f(x)-f(x_{0})}{x-x_{0}}=f'(x)\geq 0$$
+>Quindi: $$\begin{cases}
+f'(x_{0})\geq0 \\
+f'(x_{0})\leq0
+\end{cases}\Longrightarrow f'(x_{0})=0$$
 
 ### Teorema di Lagrange
 >[!note]
@@ -26,23 +24,22 @@ f'(x)\geq0
 >[!example] Dimostrazione
 >Consideriamo una funzione $g:[a,b]\to\mathbb{R}$ tale che:
 >$$g(x):=f(a)+ \left(\frac{f(b)-f(a)}{b-a}\right)(x-a)$$
->Osserviamo che $g$ è un polinomio di grado $\leq 1$, di conseguenza il suo grafico è una retta.
->Definiamo $g$ come la retta passante per $(a, f(a))$ e $(b, f(b))$, la retta ha quindi come coefficiente angolare: $$m=\frac{f(b)-f(a)}{b-a}$$
->Derivando $g(x)$ otteniamo $$g'(x)=\frac{f(b)-f(a)}{b-a}$$
->Consideriamo la funzione $h:=f-g$ sull'intervallo $[a,b]$. La funzione $h$ è continua in tutto l'intervallo, estremi inclusi e derivabile nell'intervallo estremi esclusi in quanto differenza di funzioni continue.
+>Osserviamo che $g$ è un polinomio di grado $\leq 1$, di conseguenza il suo grafico è una retta. Il grafico di $g$ è la retta secante a $G(f)$ passante per i suoi estremi $a$ e $b$, infatti: $$\begin{cases}
+>g(a)=f(a) \\
+>g(b)=f(b)
+>\end{cases}$$
+>Consideriamo adesso la funzione: $$h:= f-g\quad \forall x\in[a,b]$$
+>$h$ è una funzione continua e derivabile su $(a,b)$, inoltre $h(a)=h(b)=0$.
 >
->Per il teorema di Weierstrass esiste un punto $x_{m},x_{M}\in[a,b]$ che è estremo globale.
+>Per il teorema di Weierstrass $\exists x_{m},x_M\in[a,b]$ punti di minimo e massimo globale per $h$: $$h(x_{m})\leq h(x)\leq h(x_{M})\quad\forall x\in[a,b]$$
 >
->###### Caso 1
->Nel caso in cui gli estremi $[a,b]$ coincidono con $x_{m}, x_{M}$, poiché $$h(a)=f(a)-g(a)=0\qquad\text{ e }\qquad h(b)=f(b)-g(b)=0$$
->È definizione di retta, Si ha quindi che $$h(x)=0\quad\forall x\in[a,b]\Longrightarrow f(x)=g(x)$$
->E quindi che $f'(x)=g'(x)\Longrightarrow \text{ Teorema verificato}$
+> ##### Caso 1
+>Nel caso in cui $x_{m}$ e $x_{M}$ sono gli estremi di $[a,b]$, abbiamo che $h(x)=0\quad\forall x\in[a,b]$ e quindi: $$0=h'(x)=(f-g)'(x)=f'(x)-g'(x)$$
+>Siccome $f'(x)=g'(x)=\frac{f(b)-f(a)}{b-a}\quad\forall x\in(a,b)$ ogni punto $c\in(a,b)$ è punto di Lagrange.
 >
->###### Caso 2
->
->Nel caso in cui almeno uno tra $x_{m},x_{M}$ sia strettamente incluso tra $[a,b]$, quindi $$(x_{m}\vee x_{M})\in(a,b)$$Applicando il teorema di Fermat ottengo che $$0=h'(x_{M})=f'(x_{M})-g'(x_{M})$$
->e quindi $$f'(x_{M})=g'(x_{M})$$
->E quindi il teorema è verificato $\forall x\in(a,b)$
+>##### Caso 2
+>Nel caso in cui almeno uno tra $x_{m}$ e $x_{M}$ è in $(a,b)$, sia $c$ tale punto, e per il lemma di Fermat: $$0=h'(c)=f'(c)-g'(c)$$
+>E siccome $f'(x)=g'(x)=\frac{f(b)-f(a)}{b-a}\quad\forall x\in(a,b)$ abbiamo che $c$ è punto di lagrange.
 
 ### Teorema di Rolle
 >[!note]
@@ -57,20 +54,19 @@ f'(x)\geq0
 >2. $f\text{ descrescente}\iff f'(x)<0\quad\forall x\in(a,b)$
 >3. $f\text{ stazionaria}\iff f'(x)=0\quad\forall x\in(a,b)$ 
 
+>[!example] Dimostrazione
+>Consideriamo solo il caso di $f$ crescente in $(a,b)$: $$a<x<y<b\Longrightarrow f(x)\leq f(y)$$
+>E di conseguenza: $$\frac{f(y)-f(x)}{y-x}\geq0$$
+>E per il teorema di permanenza del segno: $$f'(x)=\lim_{y\to x}\frac{f(y)-f(x)}{y-x}\geq0$$
+>
+>Se invece $f'(x)\geq\quad\forall x\in(a,b)$, fissiamo $a<x<y<b$ e applichiamo il teorema di Lagrange a $f$ sul $[x,y]$: $$\exists f'(c)=\frac{f(y)-f(x)}{y-x}\geq0$$
+>E quindi $f(x)\leq f(y)$.
+
 >[!tip] Corollario della caratterizzazione delle funzioni costanti
 >Considero $f:(a,b)\to\mathbb{R}$ costante, allora la sua derivata prima $f'(x)=0\quad\forall x\in(a,b)$.
 
 >[!tip] Corollario
 >Se $f:D\to\mathbb{R}$ con $D$ unione di intervalli e $f$ derivabile in $D$, allora $f'(x)=0\quad\forall x\in D$ se e solo se $f$ è localmente costante (constante nell'intervallo o nel caso limite in un punto).
-
->[!example] Dimostrazione
->Solo nel caso di funzione crescente.
->Considero: $$\frac{f(y)-f(x)}{y-x}\geq0\quad\text{ se } a<x<y<b$$
->Per il teorema della permanenza del segno $$f'(x)\geq0\quad\forall x\in(a,b)$$
->
->Viceversa, supponiamo che $f'(x)\geq0\quad\forall x\in(a,b)$
->Consideriamo i punti $a<x<y<b$. per il teorema di Lagrange applicato a $f$ sull'intervallo $[a,b]$ segue che $$\exists c\in(x,y)\quad |\quad 0\leq f'(x) \Longrightarrow  f(x)\leq f(y)\qquad\forall x,y\in(a,b)\quad,\quad x<y$$
->Analogamente si dimostra la decrescenza.
 
 ### Punti di non derivabilità
 

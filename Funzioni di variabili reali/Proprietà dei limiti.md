@@ -12,7 +12,7 @@ Se una funzione è positiva in tutto il suo dominio, allora il limite della funz
 $$\begin{align*}&\text{se }f(x)\leq g(x)\leq h(x)\quad,\quad x\in((x_{0}-\delta(\varepsilon),(x_{0}+\delta(\varepsilon))\\&\text{allora } \lim_{x\to x_{0}}f(x)\leq \lim_{x\to x_{0}}g(x)\leq \lim_{x\to x_{0}}h(x)
 \end{align*}$$
 
-### Limiti di funzione composta
+### Continuità della funzione composta
 >[!note]
 >Considero $f: D(f)\to\mathbb{R}$ e $g: D(g)\to\mathbb{R}$. Siam $\text{Im}(f)\subseteq D(g)$, allora: 
 >$$g\circ f:D(f)\to\mathbb{R}\quad,\quad g\circ f:=g(f(x))$$
@@ -23,12 +23,18 @@ y=y_{0}
 \end{cases}\Longrightarrow \exists\lim_{x\to x_{0}} g(f(x))=l$$
 
 >[!example] Dimostrazione
->Considero $|g(f(x))-l|\Longrightarrow \lim_{x\to x_{0}} f(y)=l$:
->$$\forall\varepsilon>0\quad\exists\delta(\varepsilon)>0\quad|\quad(y-y_{0})<\delta(\varepsilon)\Longrightarrow \varepsilon>|g(y)-l|$$
->Scelgo $\varepsilon':=\delta(\varepsilon)\Longrightarrow\exists\delta'(\varepsilon')>0\quad |\quad |x-x_{0}|<\delta'(\varepsilon')$.
->Di conseguenza si ha che $|f(x)-y_{0}|>\varepsilon':=\delta(\varepsilon)$.
->
->Quindi $|f(x)-x_{0}|<\varepsilon'\iff \varepsilon> |g(f(x))|$
+>$$\begin{cases}
+>\lim_{y\to y_{0}}g(y)&= g(y_{0})\\
+>\lim_{x\to x_{0}}f(x)&= f(x_{0})=y_{0}
+>\end{cases}\Longrightarrow \exists\lim_{x\to x_{0}} g(f(x))=g(y_{0})$$
+>Passando alla definizione formale dei due limiti: $$\begin{align*}
+>\forall \varepsilon>0\quad\exists\delta(\varepsilon)>0\quad&|\quad|y-y_{0}|<\delta(\varepsilon)\Longrightarrow |g(y)-g(y_{0})|<\varepsilon\\
+>\forall \varepsilon'>0\quad\exists\delta'(\varepsilon')>0\quad&|\quad|y-y_{0}|<\delta'(\varepsilon')\Longrightarrow |g(y)-g(y_{0})|<\varepsilon'\\
+>\end{align*}$$
+>Scegliendo $\varepsilon':=\delta(\varepsilon)$, otterremo: $$\begin{align*}
+|x-x_{0}|<\delta'(\varepsilon)&\Longrightarrow |f(x)-f(x_{0})|<\varepsilon'=\delta(\varepsilon)\\
+&\Longrightarrow\varepsilon>|g(f(x))-g(f(x_{0}))|=|(g\circ f)(x)-g(y_{0})|
+\end{align*}$$
 
 ### Continuità della funzione inversa
 >[!note]
