@@ -24,6 +24,10 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Dimostrazioni/Principio di induzione.md",
+      "timestamp": 1731132150131
+    },
+    {
       "filepath": "Dimostrazioni/Dimostrazioni per induzione.md",
       "timestamp": 1731131729345
     },
@@ -38,10 +42,6 @@
     {
       "filepath": "numeri reali/Immersione di Q in R.md",
       "timestamp": 1731131728648
-    },
-    {
-      "filepath": "numeri reali/Costruzione dell'insieme dei numeri reali.md",
-      "timestamp": 1731131728167
     }
   ],
   "bookmarkedFileStore": [],
