@@ -34,7 +34,7 @@ Analisi matematica 1 è un corso fondamentale di matematica che approfondisce lo
 	1. [[Tecniche di integrazione]]
 	2. [[Teoremi relativi al calcolo integrale]]
 	3. [[Integrali generalizzati]]
-	4. [[Criterio di derivabilità]]
+	4. [[Criteri di integrabilità]]
 10. [[Serie numeriche]]
 	1. [[Teoremi delle serie]]
 	2. [[Serie di Taylor]]
