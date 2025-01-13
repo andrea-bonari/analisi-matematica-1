@@ -30,4 +30,7 @@ Proprietà degli asintotici:
 >[!note]
 >1. Con $x\to x_{0}$, se $f(x),g(x)\to 0\quad,\quad \frac{f(x)}{g(x)}\to 0$, si dice che $g$ è infinitesimo di ordine superiore rispetto a $f$.
 >2. Con $x\to x_{0}$, se $|f(x)|,|g(x)|\to+\infty\quad,\quad \frac{g(x)}{f(x)}\to0\iff \frac{f(x)}{g(x)}\to+\infty$, si dice che $f$ è infinitesimo di ordine superiore rispetto a $g$.
+>
+>In generale, per $x\to+\infty$: $$k<\log(x)<x<x^{a}<a^{x}<x!<x^{x}\quad k\in\mathbb{R},a>1$$
+
 

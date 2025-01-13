@@ -88,11 +88,10 @@
 >&\exists\lim_{N\to+\infty}s_{2N+1}=:s_{d}\in\mathbb{R}
 >\end{align*}$$
 >Ed anche $s_{d}\leq s_{p}$. Ma poiché $s_{2N}-s_{2N+1}=a_{2N+1}\stackrel{N\to+\infty}{\to}0$
->Si ha $s_{d}=s_{p}=:s\in\mathbb{R}$ quindi: $$\begin{align*}
+>Si ha $s_{d}-s_{p}=:s\in\mathbb{R}$ quindi: $$\begin{align*}
 >&\forall \varepsilon>0\quad\exists N_{d}(\varepsilon)>0\quad |\quad N\geq N_{d}(\varepsilon)\Longrightarrow |s_{2N+1}-s|<\varepsilon\\
 >&\forall\varepsilon>0\quad\exists N_{p}(\varepsilon)>0 \quad|\quad N\geq N_{p}(\varepsilon)\Longrightarrow|s_{2N}-s|<\varepsilon
 >\end{align*}$$
 >Definendo $N(\varepsilon):=\max(N_{d}(\varepsilon),N_{p}(\varepsilon))$ si ha: $$N\geq N(\varepsilon)\Longrightarrow|s_{N}-s|<\varepsilon$$
 >Cioè: $$\exists\lim_{N\to++\infty}s_{n}=s\in \mathbb{R}$$
 >Cioè la serie $\sum\limits_{n=0}^{\infty}(-1)^{n}a_{n}$ converge.
-

@@ -99,4 +99,3 @@ f'(x_{0})\leq0
 >f(y)&= f(x)+f'(x)\cdot(y-x)+ \frac{f''(c)}{2}\cdot (y->x)^{2}\geq\\
 >&\geq f(x) + f'(x)\cdot (y-x)\qquad\forall x,y\in(a,b)
 >\end{align*}$$
-

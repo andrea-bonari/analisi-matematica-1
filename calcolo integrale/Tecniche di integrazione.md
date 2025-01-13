@@ -56,7 +56,7 @@ $$\begin{align*}
 >Siano $f\in C([a,b])\subset\mathcal{R}$ e $\varphi:[c,b]\to[a,b]$ derivabile e $\varphi'\in C([a,b])$ strettamente monotona e crescente. Fissato $\varphi(c)=a$ e $\varphi(d)=b$, allora vale la seguente proprietà:
 >$$\int_{a}^{b}f(y)\text{ d}y=\int_{c}^{d}f(\varphi(x))\cdot \varphi'(x)\text{ d}x$$
 
->[!example]
+>[!example] Dimostrazione
 >Sia $F$ primitiva di $f$ e poniamo $G:=F\circ\varphi$, in questo modo: $$G'=(F\circ\varphi)'=F'(\varphi(x))\cdot\varphi'(x)=f(\varphi(x))\cdot\varphi'(x)$$
 >Per il primo teorema del calcolo integrale: $$\begin{align*}
 \int_{a}^{b}f(y)\text{ d}y&=F(b)-F(a)= F(\varphi(d))-F(\varphi(c))\\
@@ -92,16 +92,6 @@ Si elencano i vari metodi di risoluzione di funzioni razionali fratte:
 >[!example] Esempio delta minore di $0$
 >1. Considero l'integrale $$\int\frac{1}{x^{2}-6x+10}\text{ d}x$$
 >2. Cerco di ricondurlo alla formula generale dell'arcotangente: $$\int\frac{f'(x)}{[f(x)]^{2}+n^{2}}\text{ d}x= \frac{1}{n}\arctan\left( \frac{x}{n}\right)+c$$$$\int\frac{1}{x^{2}-6x+10}\text{ d}x=\int\frac{1}{(x-3)^{2}+1}=\arctan(x-3)+c$$
-
-### Secondo teorema del calcolo integrale
->[!note]
->Sia $f\in\mathcal{R}([a,b])$ e definiamo la funzione integrale $F$ su $[a,b]$:
->$$F:[a,b]\to\mathbb{R}\qquad F(x):=\int^{x}_{a}f(x)\text{ d}x$$
->Allora:
->1. Se $f$ è limitata allora $F$ è continua
->2. Se $f$ è continua allora $F$ è derivabile in $(a,b)$ e: $$F'(x)=f(x)\qquad\forall x\in(a,b)$$
->Quindi la funzione integrale $F$ è primitiva della funzione derivata $f$:
->$$\frac{\text{d}}{\text{d}x}\int^{x}_{a}f=f(x)\qquad\forall x\in(a,b)$$
 
 ### Area delimitata da funzioni
 >[!note]
